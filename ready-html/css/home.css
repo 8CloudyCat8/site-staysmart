@@ -155,7 +155,9 @@ body {
 	transition: var(--transition);
 	will-change: transform;
 	text-shadow: 0 0 20px #9d822b;
+	transition: 2s;
 }
+
 .main-article__paragraph {
 	max-width: calc(var(--index) * 30);
 	font-size: calc(var(--index) * .9);
@@ -165,7 +167,14 @@ body {
 	will-change: transform;
 	text-align: justify;
 	text-shadow: 0 0 20px #9d822b;
+	transition: 1s;
+
 }
+
+.main-article__paragraph:hover {
+	text-shadow: 0 0 20px #000000;
+}
+
 .content {
 	will-change: transform;
 }
